@@ -132,6 +132,24 @@ AI/ML 전체 파이프라인 실습 — 모델 구축부터 파인튜닝까지. 
 
 ---
 
+### LangChain + MLX Self Study
+
+<div>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/MLX-000000?style=for-the-badge&logo=apple&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Qwen3.5-764BA2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/DeepSeek--R1-4A90D9?style=for-the-badge"/>
+</div>
+
+LangChain 1.0 + Apple Silicon MLX 가속 로컬 모델로 파이프라인 설계부터 자동화까지. LCEL, RAG, Agent, 멀티모델 오케스트레이션, Memory, LangSmith, 배포 최적화 전 과정 실습
+
+<a href="https://github.com/MLSamdasu/Langchain-MLX-self-study">
+<img src="https://img.shields.io/badge/GitHub-Langchain--MLX--self--study-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+---
+
 ## 👾 AI Agent & Skills
 
 ### Claude SkillBook
