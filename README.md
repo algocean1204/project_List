@@ -1,6 +1,8 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=220&section=header&text=Project%20%26%20Library%20List&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%26%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%20%EC%A0%95%EB%A6%AC%ED%95%A8&descSize=18&descAlignY=55)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=280&section=header&text=algocean1204&fontSize=90&fontAlignY=35&animation=twinkling&fontColor=ffffff&desc=AI%20Platform%20%26%20Serving%20Engineer&descSize=20&descAlignY=55)
 
 <div align="center">
+
+## 📂 Project & Library List
 
 > 프로젝트와 라이브러리를 카테고리별로 정리한 저장소입니다.
 
