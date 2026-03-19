@@ -22,7 +22,7 @@
 <img src="https://img.shields.io/badge/Modal_GPU-000000?style=for-the-badge"/>
 </div>
 
-AI 모델 호출을 위한 재사용 가능한 공통 서빙 라이브러리. 복잡한 환경 설정 없이 LLM API를 호출하고 GPU 배포를 자동화하는 모듈 제공 (Apache 2.0)
+AI 모델 서빙을 위한 재사용 가능한 플랫폼 라이브러리. 복잡한 환경 설정 없이 LLM API 호출과 GPU 배포를 자동화하며, 핵심 모듈은 `pip install`로 누구나 설치할 수 있는 PyPI 패키지로 배포 (Apache 2.0)
 
 <a href="https://github.com/AlgoceanApiLib">
 <img src="https://img.shields.io/badge/GitHub-AlgoceanApiLib-181717?style=for-the-badge&logo=github&logoColor=white"/>
