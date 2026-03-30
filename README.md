@@ -48,6 +48,10 @@ Apple Silicon(M시리즈) MLX 프레임워크에 최적화된 PDF OCR 프로그�
 
 [![GitHub](https://img.shields.io/badge/GitHub-Mac__OCR__APP-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/algocean1204/Mac_OCR_APP)
 
+> **경량 버전**: 핵심 OCR 기능만 추출하여 빠르고 가볍게 사용
+>
+> [![GitHub](https://img.shields.io/badge/GitHub-Mac__OCR__APP__light-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/algocean1204/Mac_OCR_APP_light)
+
 ---
 
 ### AI Auto Trading
