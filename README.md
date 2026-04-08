@@ -121,4 +121,12 @@ Claude Code 커스텀 스킬 컬렉션. 계층적 SRP(단일 책임 원칙) 기�
 
 ---
 
+## 🧪 Side Projects
+
+| Project | Description | Tech Stack | Links |
+|:--------|:------------|:-----------|:-----:|
+| **Send Hot IT News** | IT 뉴스를 빠르게 수집하여 텔레그램으로 전송하는 macOS 앱 | `Flutter` `FastAPI` | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/algocean1204/send-hot-it-news) |
+
+---
+
 ![footer](https://raw.githubusercontent.com/algocean1204/algocean1204/main/assets/footer.svg)
