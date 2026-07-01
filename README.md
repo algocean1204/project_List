@@ -58,13 +58,13 @@ Apple Silicon(M시리즈) MLX 프레임워크에 최적화된 PDF OCR 프로그�
 
 ---
 
-### AI Auto Trading
+### AI Dashboard (mlx-benchmark-dashboard)
 
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/bge--m3-FF6F00?style=flat-square"/> <img src="https://img.shields.io/badge/Qwen2.5--7B-764BA2?style=flat-square"/> <img src="https://img.shields.io/badge/DeepSeek--R1-4A90D9?style=flat-square"/> <img src="https://img.shields.io/badge/Claude_SDK-191919?style=flat-square&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/> <img src="https://img.shields.io/badge/MLX-000000?style=flat-square&logo=apple&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
 
-LLM 5종(Bllossom, Llama, DeepSeek, Qwen, Claude) + bge-m3 임베딩 모델을 활용한 AI 기반 주식 자동매매 시스템. FastAPI 서버에서 다중 모델 라우팅 처리
+Apple Silicon Mac에서 로컬 AI 모델 성능을 실측·비교하는 데스크탑 앱. MLX 로컬 추론으로 TPS·TTFT·Peak RAM을 실시간 측정하고, 벤치마크·비교·채팅·모델 관리(HuggingFace 검색/설치)를 앱 안에서 제공. LLM·멀티모달·STT·TTS·이미지 생성 태스크 지원
 
-[![GitHub](https://img.shields.io/badge/GitHub-Auto__Trade__v1-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/algocean1204/Auto_Trade_v1)
+[![GitHub](https://img.shields.io/badge/GitHub-mlx--benchmark--dashboard-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/algocean1204/mlx-benchmark-dashboard)
 
 ---
 
