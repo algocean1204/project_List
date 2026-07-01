@@ -12,23 +12,27 @@
 
 ## 🔧 AI Platform & Library
 
-### AlgoceanApiLib
+### AlgoceanCodexOAuth
 
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Claude_SDK-191919?style=flat-square&logo=anthropic&logoColor=white"/> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/Modal_GPU-000000?style=flat-square"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/> <img src="https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/OAuth-EB5424?style=flat-square&logo=auth0&logoColor=white"/>
 
-AI 모델 서빙을 위한 재사용 가능한 플랫폼 라이브러리. 핵심 모듈은 `pip install`로 누구나 설치할 수 있는 PyPI 패키지로 배포 (Apache 2.0)
+LangChain / LangGraph에서 `ChatOpenAI` 자리에 그대로 꽂는 LLM 래퍼. `auth=oauth`(Codex CLI + ChatGPT 구독 한도) 또는 `auth=api_key`(OpenAI 과금) 선택. PyPI 배포 (MIT)
 
-[![GitHub](https://img.shields.io/badge/GitHub-AlgoceanApiLib-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AlgoceanApiLib)
-
-| 모듈 | 설명 | 설치 | Links |
-|:-----|:-----|:-----|:-----:|
-| **claude-choice-module** | Claude API/SDK/Sub 방식과 모델, 프롬프트를 쉽게 선택·호출하는 고성능 모듈 | — | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/AlgoceanApiLib/claude-choice-module) |
-| **Modal_GPU_ez** | HuggingFace 모델을 Modal GPU에 원클릭 배포 | `pip install modal-gpu-ez` | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/AlgoceanApiLib/Modal_GPU_ez) [![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/modal-gpu-ez/) |
-| └── **Langchain-modal-gpu-ez** | LangChain 전용 Modal GPU 연결 모듈 | `pip install langchain-modal-gpu-ez` | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/AlgoceanApiLib/Langchain-modal-gpu-ez) [![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/langchain-modal-gpu-ez/) |
+[![GitHub](https://img.shields.io/badge/GitHub-AlgoceanCodexOAuth-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/algocean1204/AlgoceanCodexOAuth) [![PyPI](https://img.shields.io/badge/PyPI-algocean--codex--oauth-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/algocean-codex-oauth/)
 
 ---
 
 ## 🤖 AI Service Projects
+
+### 일과 (SW-ilgwa)
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Qdrant-DC382D?style=flat-square"/> <img src="https://img.shields.io/badge/Modal_B200-000000?style=flat-square"/> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/> <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/> <img src="https://img.shields.io/badge/BGE--M3-FF6F00?style=flat-square"/>
+
+주제·PDF만 주면 **강의 · 슬라이드 · 음성 수업 · 시험 · 노트**까지 생성하는 AI 학습 데스크. 외부 LLM API 없이 Modal B200 위에서 자체 모델을 상주 구동(강의 1건당 $0.38), 업로드 PDF를 OCR → Qdrant 하이브리드 RAG(Dense+Sparse+Reranker)로 교재 근거를 강제해 환각을 억제
+
+[![GitHub](https://img.shields.io/badge/GitHub-SW--ilgwa-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/algocean1204/SW-ilgwa) [![Demo](https://img.shields.io/badge/▶_데모_체험-2ea44f?style=flat-square)](https://algocean1204.github.io/SW-ilgwa/)
+
+---
 
 ### Geulteo
 
@@ -93,6 +97,28 @@ AI/ML 전체 파이프라인 실습 — 모델 구축부터 파인튜닝까지. 
 LangChain 1.0 + Apple Silicon MLX 가속 로컬 모델로 파이프라인 설계부터 자동화까지. LCEL, RAG, Agent, 멀티모델 오케스트레이션, Memory, LangSmith, 배포 최적화 전 과정 실습
 
 [![GitHub](https://img.shields.io/badge/GitHub-Langchain--MLX--self--study-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MLSamdasu/Langchain-MLX-self-study)
+
+---
+
+## 🤗 HuggingFace Models
+
+### algocean-2.1B-nano-friend
+
+<img src="https://img.shields.io/badge/🤗_HuggingFace-FFD21E?style=flat-square&logoColor=black"/> <img src="https://img.shields.io/badge/PEFT_LoRA-EE4C2C?style=flat-square"/> <img src="https://img.shields.io/badge/Korean-4479A1?style=flat-square"/> <img src="https://img.shields.io/badge/kanana--nano--2.1b-FFCD00?style=flat-square"/>
+
+kakaocorp `kanana-nano-2.1b-instruct`에 LoRA SFT한 한국어 companion 대화 어댑터. 감정 공감·친구 대화 말투를 더하고 companion 태스크 성능을 높임(eval loss −24%). 약 22만 줄 데이터로 학습 · Apache-2.0
+
+[![HuggingFace](https://img.shields.io/badge/🤗_algocean--2.1B--nano--friend-FFD21E?style=flat-square&logoColor=black)](https://huggingface.co/aisamdasu/algocean-2.1B-nano-friend)
+
+---
+
+### algocean-v1-2B-ko
+
+<img src="https://img.shields.io/badge/🤗_HuggingFace-FFD21E?style=flat-square&logoColor=black"/> <img src="https://img.shields.io/badge/Korean-4479A1?style=flat-square"/> <img src="https://img.shields.io/badge/2B-764BA2?style=flat-square"/> <img src="https://img.shields.io/badge/text--generation-009688?style=flat-square"/>
+
+한국어 위주의 2B 언어 모델 · Apache-2.0
+
+[![HuggingFace](https://img.shields.io/badge/🤗_algocean--v1--2B--ko-FFD21E?style=flat-square&logoColor=black)](https://huggingface.co/aisamdasu/algocean-v1-2B-ko)
 
 ---
 
